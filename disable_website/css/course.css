@@ -1,0 +1,153 @@
+.navBar li:nth-child(2){
+    background-color: #ffffff;
+}
+.navBar li:nth-child(2) a{
+    color: #00b050;
+}
+.navBar li:nth-child(2) a:hover{
+    color:#ffffff;
+}
+.type_catalog{
+    width:1150px;
+    height:auto;
+    margin: 50px auto;
+    border:2px solid #dedddb;
+}
+.info_box{
+    width:1060px;
+    height:47px;
+    font-family: "微软雅黑";
+    border-bottom: 1px dashed #e1e0de;
+    margin:4px auto;
+}
+.info_box:last-child{
+    border-bottom: 0px;
+}
+.info_box span{
+    font-size: 18px;
+    color: #555555;
+    height:45px;
+    width:100px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.info_box ul{
+    list-style-type:none;
+    width:850px;
+    height:42px;
+    margin-left: 60px;
+}
+.info_box ul li{
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.item_selected a{
+    background-color: #f2f2f2;
+}
+
+.info_box li a{
+    display: block;
+    height:40px;
+    line-height: 40px;
+    width:70px;
+    color: black;
+    text-decoration: none;
+}
+.info_box li a:hover{
+    color: #00b050;
+}
+.filter{
+    margin-left: 4px;
+}
+.filter li{
+    margin-left: -5px;
+    display: inline-block;
+    border: 1px solid #d7dad7;
+    text-align: center;
+}
+.filter li a{
+    display: block;
+    width:70px;
+    height:25px;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "黑体";
+    color:black;
+}
+.filter .selected a{
+    background-color: #00b050;
+    color: #ffffff;
+}
+
+/* all_courses */
+.all_courses{
+    width:1150px;
+    height:auto;
+    font-family:"微软雅黑";
+}
+.left_box{
+    width:960px;
+    height:auto;
+}
+.classes_box{
+    width:225px;
+    height:225px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+.classes_box:hover{
+    box-shadow: 0 0 5px;
+}
+.classes_box img{
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+.classes_box:hover img{
+    transform: scale(1.3) rotate(10deg);
+    -webkit-transform: scale(1.3) rotate(10deg);
+}
+.classes_box .img_box{
+    width:225px;
+    height:125px;
+    overflow: hidden;
+}
+.classes_box .class_info{
+    width:200px;
+    height:100px;
+    margin-left: 5px;
+    padding-top:5px;
+}
+.class_info span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.class_info p{
+    font-size: 13px;
+    margin-top: 3px;
+}
+.class_info .class_price{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #f72224;
+}
+.right_box{
+    margin-top: 15px;
+    width:190px;
+    height:465px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 2px;
+}
